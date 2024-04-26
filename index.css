@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    text-align: center;
+}
+
+.card-white {
+    border : 1px solid skyblue; 
+    border-radius: 9px; 
+    padding: 10px; 
+    text-align: center; 
+    margin: 40px 0; 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); /* Ombre */
+}
+
+.card-white ul{
+    list-style: none;
+    padding-left: O;
+}
+
+h1 {
+    color: skyblue; 
+}
+
+.container {
+    margin: 20px auto;
+    width: 700px;
+    text-align: center;
+}
+
+.card-white h1{
+    color:skyblue
+}
+
+#linkedin-button {
+    background-color: skyblue; 
+    border: none; 
+    border-radius: 5px; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    transition: background-color 0.; 
+}
+
+img {
+    text-align: center; 
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    margin: 0 auto; 
+    object-fit: cover; 
+}
+
+.list-inline {
+    list-style: none;
+    text-align: center;
+    padding-left: 0%;
+    
+}
+
+.list-inline li {
+    display: inline;
+}
+
+.list-inline li i{
+    font-size: 150px;
+    color :skyblue;
+    padding: 20px;
+    margin: 2px;
+    transition: 0.5s;
+}
+
+.list-inline li i:hover{
+    color :rgb(3, 59, 80);
+}
